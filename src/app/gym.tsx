@@ -4,17 +4,18 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const PlaceholderImage = require('@/assets/images/locker.jpeg');
 
-export default function LockerScreen() {
+export default function GymScreen() {
   return (
     <View style={styles.container}>
       <Image source={PlaceholderImage} style={styles.image} />
       <Text style={styles.text}>
-        Alex spins the combination on Locker 114 and tugs it open. Behind a stack of heavy textbooks is a hollowed-out compartment containing a glowing vintage rotary phone on a velvet pad. 
+        You slowly open the gym doors and hear someone yelling for help. You follow the noise into the locker room and find Ryan locked inside a storage closet.
         {"\n\n"}
-        The moment the locker door clicks open, the phone rings sharply. Alex picks up the receiver, and a frantic voice whispers, "Don't look behind you. 
-        
+        You break the lock using a metal bar and free him. Ryan explains that someone had locked him inside as a prank.
         {"\n\n"}
-        The vice principal is carrying a briefcase of encrypted drive chips. The handoff is at the gym lobby in two minutes."
+        You both leave school safely.
+        {"\n\n"}
+        THE END — You Saved Ryan!
       </Text>
     </View>
   );
