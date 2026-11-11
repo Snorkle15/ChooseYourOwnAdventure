@@ -2,12 +2,12 @@ import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-const PlaceholderImage = require('@/assets/images/locker.jpeg');
+const BasementImage = require('@/assets/images/basement.png');
 
 export default function BasementScreen() {
   return (
     <View style={styles.container}>
-      <Image source={PlaceholderImage} style={styles.image} />
+      <Image source={BasementImage} style={styles.image} />
       <Text style={styles.text}>
         You walk down the dark basement stairs and notice a door slightly open.
         {"\n\n"}

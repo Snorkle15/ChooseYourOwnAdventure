@@ -4,7 +4,7 @@ import { Link } from "expo-router";
 
 import { StyleSheet, View } from "react-native";
 
-const bookCover = require('@/assets/images/Cover.jpg');
+const bookCover = require('@/assets/images/Cover.png');
 
 export default function Index() {
   return (

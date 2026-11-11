@@ -2,12 +2,12 @@ import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-const PlaceholderImage = require('@/assets/images/locker.jpeg');
+const PoliceImage = require('@/assets/images/police.png');
 
 export default function PoliceScreen() {
   return (
     <View style={styles.container}>
-      <Image source={PlaceholderImage} style={styles.image} />
+      <Image source={PoliceImage} style={styles.image} />
       <Text style={styles.text}>
         You immediately call the police and explain the strange message.
         {"\n\n"}

@@ -2,12 +2,12 @@ import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-const PlaceholderImage = require('@/assets/images/locker.jpeg');
+const GymImage = require('@/assets/images/gym.png');
 
 export default function GymScreen() {
   return (
     <View style={styles.container}>
-      <Image source={PlaceholderImage} style={styles.image} />
+      <Image source={GymImage} style={styles.image} />
       <Text style={styles.text}>
         You slowly open the gym doors and hear someone yelling for help. You follow the noise into the locker room and find Ryan locked inside a storage closet.
         {"\n\n"}

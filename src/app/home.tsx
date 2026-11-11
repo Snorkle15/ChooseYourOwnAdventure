@@ -2,12 +2,12 @@ import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-const PlaceholderImage = require('@/assets/images/locker.jpeg');
+const HomeImage = require('@/assets/images/home.png');
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Image source={PlaceholderImage} style={styles.image} />
+      <Image source={HomeImage} style={styles.image} />
       <Text style={styles.text}>
         You assume Ryan is playing a prank and decide to go home.
         {"\n\n"}

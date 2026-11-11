@@ -2,12 +2,12 @@ import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-const PlaceholderImage = require('@/assets/images/locker.jpeg');
+const GuardImage = require('@/assets/images/guard.png');
 
 export default function GuardScreen() {
   return (
     <View style={styles.container}>
-      <Image source={PlaceholderImage} style={styles.image} />
+      <Image source={GuardImage} style={styles.image} />
       <Text style={styles.text}>
         You find the security guard near the parking lot and explain that Ryan is missing.
         {"\n\n"}
