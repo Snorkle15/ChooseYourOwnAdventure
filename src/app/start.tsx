@@ -1,9 +1,13 @@
+import { Image } from 'expo-image';
 import { Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
+
+const StartImage = require('@/assets/images/start.png');
 
 export default function StartScreen() {
   return (
     <View style={styles.container}>
+      <Image source={StartImage} style={styles.image} />
       <Text>It's Friday afternoon, and you're about to leave school when you receive a strange text from your best friend, Ryan.
         {"\n\n"}
         "Help me. I'm trapped somewhere in the school. Don't trust anyone."
@@ -41,5 +45,11 @@ const styles = StyleSheet.create({
     textDecorationLine: 'underline',
     color: '#0000ff',
     margin: 20,
+  },
+  image: {
+    width:200,
+    height: 200,
+    borderRadius: 18,
+    
   },
 });
